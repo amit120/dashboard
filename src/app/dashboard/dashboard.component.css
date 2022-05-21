@@ -1,0 +1,13 @@
+
+.text--dash {
+    display: flex;
+    justify-content: space-between;
+}
+.text--dash .right-dashboard img{
+    width: 47%;
+    float: right;
+}
+.left-dashboard h3 {
+    font-weight: 600;
+    font-size: 22px;
+}

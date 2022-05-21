@@ -1,0 +1,26 @@
+
+
+<div class="body" [ngClass]="getBodyClass()">
+    <nav class="navbar header-navbar navbar navbar-shadow align-items-center navbar-light navbar-expand floating-nav">
+        <div class="navbar-container d-flex content align-items-center">
+            <p><i class="fas fa-calendar"></i></p>
+            <p><i class="fa fa-menu"></i></p>
+        </div>
+        <div class="bookmark-wrapper d-flex">
+            <span class="feather-icon position-relative" style="margin-right: 29px;margin-top: 11px;font-size: 14px;"><svg xmlns="http://www.w3.org/2000/svg" width="21px" height="21px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-body feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                <span class="badge badge-up badge-pill bg-danger" style="position: absolute;top: -7px;">6</span>
+            </span>
+            <div class=" user-nav mr-5">
+                <p class="user-name font-weight-bolder mb-0"> John Doe </p>
+                <span class="user-status">admin</span>
+            </div>
+            <span class="b-avatar badge-minimal badge-light-primary rounded-circle" style="width: 40px; height: 40px;">
+                <span class="b-avatar-img">
+                    <img src="assets/img/13-small.d796bffd.png" alt="avatar">
+                </span>
+                <span class="b-avatar-badge badge-success" style="font-size: calc(11.2px); bottom: 0px; right: 0px;"></span>
+            </span>
+        </div>
+    </nav>
+    <router-outlet></router-outlet>
+</div>
